@@ -11,6 +11,7 @@ easier to navigate!
 user_name = input("What is your name?: ")
 user_age = int((input("How old are you?: ")))
 user_colour = input("What is your favourite colour?: ").lower()
+user_faculty = input("What faculty are you studying?: ").lower()
 
 #Use stored input to create personalised respones
 print(f"""
@@ -18,6 +19,16 @@ Welcome {user_name}! I see that your favourite colour is {user_colour}.
 I have a few suggestions based on your choice! 
  
 """)
+
+if user_faculty == 'math':
+    print("That is a very hard but rewarding faculty. Keeping my fingers crossed.")
+elif user_faculty == 'psychology':
+    print("Human's mind is so interesting. I am sure you'll love it.")
+elif user_faculty == 'computer science':
+    print("Perfect choice. This is what I studied. Good luck.")
+else:
+    print("I am not sure we have this faculty.Choose from: math, psychology and computer science.")
+    
 
 if user_colour == 'red':
     print("If you like the colour RED, I have the following for you! Check out:  ")
@@ -53,6 +64,7 @@ elif user_colour == 'yellow':
        
 else:
     print("I am not sure if that's a colour")
+    
 
 
 #Control structures and while loops
@@ -75,5 +87,11 @@ else:
 
 question = input("Is there anything you would like to ask me? (Type in q to quit: )")
 
-if question == 'How is your day':
+if question == 'How is your day?':
     print("I exist so my day is going well!")
+elif question == 'Who can help me with my curriculum form?':
+    print("You can speak to your course advisor or an Orientation Leader.")
+elif question == 'What clubs does the university offer?':
+    print == ('The university offers a wide range of clubs')
+else:
+    print("I am not sure if have an answer to this question.")
