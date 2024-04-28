@@ -1,5 +1,4 @@
 
-
 #initialise message
 print('''
 Wecome to UniBudyy! Your all-in-one app that makes your freshman journey a bit
@@ -77,7 +76,7 @@ elif user_age > 25 and user_age < 35:
 elif user_age > 35:
     print("That's fantastic! It's never too late to learn and grow")
 else:
-    print("{} is a fun age to start university at!".format(user_age))
+    print("{} is a fun age to start university at! Good luck".format(user_age))
     
     
 
@@ -92,6 +91,8 @@ if question == 'How is your day?':
 elif question == 'Who can help me with my curriculum form?':
     print("You can speak to your course advisor or an Orientation Leader.")
 elif question == 'What clubs does the university offer?':
-    print == ('The university offers a wide range of clubs')
+    print('The university offers a wide range of clubs')
+elif question == 'Is there any good restaurants around campus?':
+    print('Yes, my favourite is the Mexican Salsa next to the campus')
 else:
     print("I am not sure if have an answer to this question.")
