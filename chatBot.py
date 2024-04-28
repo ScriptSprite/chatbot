@@ -1,7 +1,7 @@
 
 #initialise message
 print('''
-Wecome to UniBudyy! Your all-in-one app that makes your freshman journey a bit
+Wecome to UniBudyy! Your all-in-one app that makes your freshman journey a lot
 easier to navigate!
         Please enter your credentials to get started! 
     ''')
